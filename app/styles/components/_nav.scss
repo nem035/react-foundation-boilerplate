@@ -1,0 +1,25 @@
+.top-bar {
+  background-color: $nav-background-color;
+
+  ul {
+    background-color: $nav-background-color;
+  }
+
+  .menu-text {
+    color: $nav-text-color;
+
+    &:not(.app-name) {
+      font-weight: normal;
+    }
+
+    a {
+      display: inline;
+      font-weight: bold;
+      padding: 0;
+    }
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
+}
